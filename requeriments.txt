@@ -1,0 +1,6 @@
+streamlit==1.25.0
+folium==0.14.0
+Pillow==9.5.0
+requests==2.31.0
+streamlit-lottie==0.0.5
+streamlit-folium==0.13.0
