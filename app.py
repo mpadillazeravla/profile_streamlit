@@ -1,7 +1,7 @@
 from PIL import Image
 import requests
 import streamlit as st
-#from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie
 # import folium
 # from streamlit_folium import st_folium
 
@@ -77,7 +77,7 @@ with st.container():
         st.write("[More info >](https://www.linkedin.com/in/padilla-alvarez/)")
 
     with right_column:
-        st.lottie(lottie_animation_code ,height=500 , key = "coder")
+        st_lottie(lottie_animation_code ,height=500 , key = "coder")
 
 #---------- PROJECTS -------------#
 with st.container():
