@@ -1,0 +1,6 @@
+streamlit
+folium
+pillow
+requests
+streamlit-lottie
+streamlit-folium
