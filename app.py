@@ -2,7 +2,7 @@ from PIL import Image
 import requests
 import streamlit as st
 #from streamlit_lottie import st_lottie
-import folium
+# import folium
 from streamlit_folium import st_folium
 
 st.set_page_config(page_title="Streamlit prueba" , page_icon=":globe_with_meridians:" , layout="wide")
@@ -29,10 +29,10 @@ img_powerapps = Image.open("images/powerapps.png")
 
 # -------------- MAP ------------ #
 # center on Liberty Bell, add marker
-m = folium.Map(location=[36.7201600, -4.4203400], zoom_start=16)
-folium.Marker(
-    [36.7201600, -4.4203400], popup="Malaga", tooltip="Malaga"
-).add_to(m)
+# m = folium.Map(location=[36.7201600, -4.4203400], zoom_start=16)
+# folium.Marker(
+#     [36.7201600, -4.4203400], popup="Malaga", tooltip="Malaga"
+# ).add_to(m)
 
 
 #-------- SIDEBAR ---------------#
@@ -47,8 +47,8 @@ with st.container():
     greeting = st.subheader("Hi, I am Miguel :wave:") 
     st.image(img_profile, width=120)
     st.title("Junior Full Stack Dev")
-    st.write("I live here")
-    st_data = st_folium(m, width=400 , height=300)
+    # st.write("I live here")
+    # st_data = st_folium(m, width=400 , height=300)
     st.write("I am a Python passionate working to achieve new levels and experimenting with some different tools")
     st.write("[More info >](https://www.linkedin.com/in/padilla-alvarez/)")
     st.write("##")
