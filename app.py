@@ -3,7 +3,7 @@ import requests
 import streamlit as st
 #from streamlit_lottie import st_lottie
 # import folium
-from streamlit_folium import st_folium
+# from streamlit_folium import st_folium
 
 st.set_page_config(page_title="Streamlit prueba" , page_icon=":globe_with_meridians:" , layout="wide")
 
